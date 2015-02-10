@@ -1,0 +1,29 @@
+body { background: rgb(1,63,130); color: rgb(240,117,48); font-family: 'Lato', sans-serif; font-size: 20px; line-height: 1.35em; text-align: center; }
+
+a { color: #76122d; }
+a:hover { color: #a2193e; }
+
+header .site-title { color: rgb(240,117,48); font-size: 5em; font-weight: bold; line-height: 1em; text-decoration: none; }
+
+form, footer { width: 600px; margin: auto; text-align: left; }
+
+/** The main form and info */
+form .description { letter-spacing: 1px; line-height: 1.3em; }
+form .input { display: flex; align-items: center; }
+form .button { height: 44px; border: none; }
+form #email { width: 75%; background: #FDFCFB; font-family: inherit; font-size: 18px; color: #737373; letter-spacing: 1px; text-indent: 5%; border-radius: 5px 0 0 5px; }
+form #submit { width: 24%; height: 46px; background: rgb(240,117,48); color: rgb(1,63,130); font-family: inherit; font-size: 18px; font-weight: bold; letter-spacing: 1px; border-radius: 0 5px 5px 0; cursor: pointer; transition: background .3s ease-in-out; }
+form #submit:hover { background: #8e5305; }
+form input:focus { outline: none; outline: 2px solid rgb(1,63,130); box-shadow: 0 0 2px #E86C8D; }
+
+/** Footer Section */
+footer { border-top: 1px solid #8e5305; margin: 2em auto; }
+footer p { font-size: .9em; line-height: 1.35em; }
+footer li { font-size: .85em; }
+footer .footer-nav { border-top: 1px solid #8e5305; margin-top: 1em; padding: 1em 0; }
+footer .footer-nav a { font-size: .7em; }
+
+/* Utility */
+.flash-message { -webkit-border-radius: 5px; border-radius: 5px; background-clip: padding-box; /* stops bg color from leaking outside the border: */ background-color: rgb(240,117,48); color: rgb(1,63,130); display: none; margin: 2em 0; padding: 1em; }
+
+/** that's all, folks **/
