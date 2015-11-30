@@ -1,82 +1,80 @@
-
 <!DOCTYPE html>
 <html>
 
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NYCTech Slack Invitations</title>
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/css/main.css">
-  <meta name="description" content="">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-  <script type="text/javascript" src="/js/invitation_form.js"></script>
-</head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NYCTech Slack Invitations</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <meta name="description" content="">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="/js/invitation_form.js"></script>
+  </head>
 
   <body>
 
-    <header>
-  <a class="site-title" href="/">NYCTech Slack Auto-Inviter</a>
-</header>
+    <h1>
+      <a class="site-title" href="/">NYCTech Slack Auto-Inviter</a>
+    </h1>
 
     <div class="page-content">
       <div class="wrapper">
         <form action="#" method="post" id="invitationForm">
-  <div class="description">
-    <p>NYCTech is a Slack account for the New York-based tech community.</p>
+          <div class="description">
+            <p>NYCTech is a Slack account for the New York-based tech community.</p>
 
-    <h2>Join Us!</h2>
-    <p>Put your best email address in the box below and our robots will send you an invitation.</p>
-    <div class="flash-message success" id="invitationFormSuccess">
-      <!-- TODO: This is meant to be a stylized "flash" notification that's hidden by default -->
-      Great! An invitation should arrive within a few minutes.
-    </div>
+            <h2>Join Us!</h2>
+            <p>Put your best email address in the box below and our robots will send you an invitation.</p>
+            <div class="flash-message success" id="invitationFormSuccess">
+              <!-- TODO: This is meant to be a stylized "flash" notification that's hidden by default -->
+              Great! An invitation should arrive within a few minutes.
+            </div>
 
-    <div class="flash-message error" id="invitationFormFail">
-      <!-- TODO: This is meant to be a stylized "flash" notification that's hidden by default -->
-      Oh No! Our robots are malfunctioning and cannot send invitations at this time. Please try again later.
-    </div>
-  </div>
-  <div class="input" id="inputFields">
-    <input required type="email" class="button" id="email" name="invitation[email]" size="30" placeholder="you@example.com">
-    <input type="submit" class="button" id="submit" value="Invite Me!">
-  </div>
-</form>
+            <div class="flash-message error" id="invitationFormFail">
+              <!-- TODO: This is meant to be a stylized "flash" notification that's hidden by default -->
+              Oh No! Our robots are malfunctioning and cannot send invitations at this time. Please try again later.
+            </div>
+          </div>
+          <div class="input" id="inputFields">
+            <input required type="email" class="button" id="email" name="invitation[email]" size="30" placeholder="you@example.com">
+            <input type="submit" class="button" id="submit" value="Invite Me!">
+          </div>
+        </form>
 
       </div>
     </div>
 
     <footer>
-  <p>NYCTech runs on <a href="http://www.slack.com">Slack</a>, a simple and easy way for people to stay connected.</p>
-  <p>The current moderators are:</p>
-  <ul>
-    <li><a href="https://twitter.com/harryh">Harry Heymann</a></li>
-    <li><a href="https://twitter.com/skamille">Camille Fournier</a></li>
-    <li><a href="https://twitter.com/kellen">Kellan</a></li>
-    <li><a href="https://twitter.com/kartar">James Turnbull</a></li>
-    
+      <p>NYCTech runs on <a href="http://www.slack.com">Slack</a>, a simple and easy way for people to stay connected.</p>
+      <p>The current moderators are:</p>
+      <ul>
+        <li><a href="https://twitter.com/harryh">Harry Heymann</a></li>
+        <li><a href="https://twitter.com/skamille">Camille Fournier</a></li>
+        <li><a href="https://twitter.com/kellen">Kellan</a></li>
+        <li><a href="https://twitter.com/kartar">James Turnbull</a></li>
 
-  </ul>
-  <p>If you&rsquo;d like to participate as an admin or to invite your group to the discussion, just ask one of them how to get involved.</p>
-  <div class="footer-nav">
-    <p>This site and the auto-inviter are heavily cloned from the fine work done by the <a href="https://github.com/tech404">tech404 team</a></p>
-  </div>
-</footer>
+      </ul>
+      <p>If you&rsquo;d like to participate as an admin or to invite your group to the discussion, just ask one of them how to get involved.</p>
+      <div class="footer-nav">
+        <p>This site and the auto-inviter are heavily cloned from the fine work done by the <a href="https://github.com/tech404">tech404 team</a></p>
+      </div>
+    </footer>
 
-<script type="text/javascript">
-  var _gauges = _gauges || [];
-  (function() {
-    var t   = document.createElement('script');
-    t.type  = 'text/javascript';
-    t.async = true;
-    t.id    = 'gauges-tracker';
-    t.setAttribute('data-site-id', '54da531fe32bb4543f00ab08');
-    t.src = '//secure.gaug.es/track.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(t, s);
-  })();
-</script>
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '54da531fe32bb4543f00ab08');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
 
   </body>
 
