@@ -28,6 +28,6 @@ group :development, :test do
 end
 
 group :production do
-  gem 'puma', '~> 2.11'
+  gem 'puma', '~> 3.12'
   gem 'rails_12factor', '~> 0.0', '>= 0.0.3'
 end
